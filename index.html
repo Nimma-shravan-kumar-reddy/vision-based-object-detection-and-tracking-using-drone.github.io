@@ -204,6 +204,37 @@
     <p>You can find the source code for this project on GitHub:</p>
     <a href="https://github.com/Nimma-shravan-kumar-reddy/vision-based-object-detection-and-tracking-using-drone.github.io">Vision Based Object Detection and Tracking Using Drone</a>
 </section>
+<section id="results">
+    <h2 class="section-title">Results</h2>
+    <h3>Object Detection Metrics</h3>
+    <p>Here are the precision, recall, and F1 scores for the custom-trained YOLOv5 model:</p>
+    <ul>
+        <li>Case 1 (before augmentation, only iRobot images):</li>
+        <ul>
+            <li>Precision: 0.85</li>
+            <li>Recall: 0.81</li>
+            <li>mAP_0.5:0.95: 0.83</li>
+        </ul>
+        <li>Case 2 (training 1, iRobot images and augmentation data):</li>
+        <ul>
+            <li>Precision: 0.90</li>
+            <li>Recall: 0.92</li>
+            <li>mAP_0.5:0.95: 0.88</li>
+        </ul>
+        <li>Case 3 (all data, including similar confusable objects):</li>
+        <ul>
+            <li>Precision: 0.93</li>
+            <li>Recall: 0.96</li>
+            <li>mAP_0.5:0.95: 0.90</li>
+        </ul>
+    </ul>
+    <h3>Object Detection Images</h3>
+    <p>Here are sample images showing the object detection performance for each case:</p>
+    <img src="path/to/case1-image.png" alt="Object detection case 1" style="max-width: 800px; height: auto;" />
+    <img src="path/to/case2-image.png" alt="Object detection case 2" style="max-width: 800px; height: auto;" />
+    <img src="path/to/case3-image.png" alt="Object detection case 3" style="max-width: 800px; height: auto;" />
+</section>
+
 
 <script>
     // Smooth scrolling for internal links
