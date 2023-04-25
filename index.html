@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object Detection and Tracking System</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Object Detection and Tracking System</h1>
+		<nav>
+			<ul>
+				<li><a href="#abstract">Abstract</a></li>
+				<li><a href="#introduction">Introduction</a></li>
+				<li><a href="#motivation">Motivation and Project Applications</a></li>
+				<li><a href="#objectives">Objectives and Deliverables</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="abstract">
+			<h2>Abstract</h2>
+			<p>This project presents a vision-based object detection and tracking system that employs a Tello drone for tracking and an iRobot as the target object. The system incorporates the YOLOv5 deep learning model, trained on a custom dataset of iRobot images, for accurate object detection in real-time. A combination of centroid tracking and PID control algorithms is used to manage the drone's movement. The drone autonomously maintains a safe distance from the iRobot while following it through various environments. The performance of the system is assessed using the custom dataset, which contains images of the iRobot in a diverse range of indoor and outdoor settings, under different lighting conditions and orientations. By integrating centroid tracking with the PID control mechanism, the system ensures smooth and precise tracking of the iRobot, enhancing its applicability to a wide array of real-world scenarios.</p>
+		</section>
+
+		<section id="introduction">
+			<h2>Introduction</h2>
+			<p>In today's rapidly evolving world, the demand for advanced, intelligent systems capable of perceiving, analyzing, and interacting with their environment is constantly increasing. Vision-based object detection and tracking play a vital role in fulfilling this demand, offering numerous applications in robotics, surveillance, autonomous navigation, and more. With the advent of powerful deep learning techniques, object detection algorithms have experienced significant enhancements, opening new possibilities for creating innovative and efficient solutions to complex problems. </p>
+      <p>In this project, we present a state-of-the-art vision-based object detection and tracking system that utilizes a Tello drone to track an iRobot as the target object. The system leverages the power of the YOLOv5 deep learning model, trained on a custom dataset of iRobot images, to achieve real-time object detection with high accuracy. To ensure smooth and precise tracking, the system integrates a combination of centroid tracking and PID control algorithms, thereby enabling the drone to autonomously maintain a safe distance from the iRobot while following it through various environments.</p>
+      <h2>MOTIVATION AND PROJECT APPLICATIONS</h2>
+      <p>The motivation behind this project stems from the increasing need for efficient, versatile, and accurate object detection and tracking systems in a variety of domains. Traditional methods of object tracking often rely on manual intervention or rudimentary algorithms, leading to suboptimal performance and limited applicability. With the advancements in deep learning, we now can revolutionize the field of object detection and tracking, enabling more accurate and automated solutions. Furthermore, the widespread availability of sophisticated hardware, such as drones and robotic platforms, has opened new possibilities for combining computer vision techniques with real-world applications.</p>
+      <p>The proposed vision-based object detection and tracking system has numerous potential applications across various industries and domains. Some of these include:</p>
+      <ul>
+      <li>Surveillance and Security: The system can be employed for monitoring and tracking intruders, vehicles, or other objects of interest in both public and private spaces, improving overall security and safety.</li>
+      <li>Search and Rescue Operations: The drone-based tracking system can be utilized in search and rescue missions, such as locating lost hikers, stranded individuals, or disaster survivors, expediting response times, and potentially saving lives.</li>
+      <li>Wildlife Observation and Research: The system can be adapted to track and monitor wildlife species in their natural habitats, aiding researchers in collecting valuable data and insights into animal behavior and movement patterns.</li>
+      <li>Inspection and Monitoring: The proposed solution can be employed for inspecting and monitoring critical infrastructure, such as bridges, pipelines, or power lines, enabling early detection of potential issues and reducing maintenance costs.</li>
+      <li>Autonomous Navigation: The tracking system can be integrated into autonomous vehicles or robots, allowing them to efficiently navigate complex environments and follow specific objects or paths.</li>
+      <li>Sports and Entertainment: The system can be used to track and record athletes or performers during events, providing unique perspectives and enhancing the overall viewing experience.</li>
+      <li>Retail and Inventory Management: The object detection and tracking system can be adapted for tracking and managing inventory in warehouses or retail spaces, improving efficiency, and reducing human error.</li>
+      </ul>
+      <p>These applications, among others, showcase the versatility and adaptability of the proposed vision-based object detection and tracking system, offering the potential to significantly impact various industries and domains.</p>
+      <h2>OBJECTIVES AND DELIVERABLES</h2>
+      <p>This project is guided by two primary objectives, as outlined below:</p>
+      <ol>
+      <li>Implement an accurate object detection system for iRobot.</li>
+      <p>Research Question 1: How effectively can a custom trained YOLOv5 model be utilized for the real-time detection
