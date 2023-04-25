@@ -30,7 +30,6 @@ You can also modify the system to track other objects of interest by adjusting t
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 We would like to thank our project advisor and colleagues for their support and feedback throughout the development process. We also acknowledge the contributions of the YOLOv5 and OpenCV communities, whose open-source software made this project possible.
