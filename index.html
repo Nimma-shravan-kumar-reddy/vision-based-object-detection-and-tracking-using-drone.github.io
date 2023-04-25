@@ -125,10 +125,28 @@
         <p>This project presents a vision-based object detection and tracking system that utilizes a Tello drone to track an iRobot as the target object. The system incorporates a custom-trained YOLOv5 deep learning model for accurate object detection in real-time, as well as a combination of centroid tracking and PID control algorithms to manage the drone's movement. The drone autonomously maintains a safe distance from the iRobot while following it through various environments.</p>
         <img src="TelloTracking.jpg" alt="A descriptive image of the project" />
         <h3>Video Demonstration</h3>
-        <video width="100%" controls autoplay muted loop>
-            <source src="demo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+    <div class="video-wrapper">
+    <video class="video" autoplay muted loop>
+       <source src="demo1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video class="video" autoplay muted loop>
+      <source src="demo2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <style>
+  .video-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .video {
+    width: 48%;
+    margin: 0;
+  }
+ </style>
     </section>
 
     <section id="motivation">
